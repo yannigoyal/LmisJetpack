@@ -26,7 +26,7 @@ fun HomeMainScreen() {
     )
 
     Scaffold(
-        topBar = { TopAppBar(title = { Text("My App") }) },
+        topBar = { TopAppBar(title = { Text("Home") }) },
         bottomBar = { BottomBar(navController, bottomNavItems) }
     ) { innerPadding ->
         NavHost(
